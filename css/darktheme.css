@@ -15,7 +15,6 @@
     --jexcel_border_color_highlighted: #999;
     --active_color: #eee;
     --active-color: var(--active_color); */
-
     --jexcel_header_color: white;
     --jexcel_header_color_highlighted: #white;
     --jexcel_header_background: #363640;
@@ -25,53 +24,55 @@
     /* --jexcel_content_background_highlighted: #2a2a32; */
     --jexcel_menu_box_shadow: unset;
     --jexcel_border_color: rgba(255, 255, 255, 0.12);
-
-
 }
 
+
 /* removes blue outline when table is clicked */
-*:focus {outline:none !important}
+
+*:focus {
+    outline: none !important
+}
 
 .jexcel {
     border-bottom: 1px solid var(--jexcel_border_color);
     border-right: 0px solid var(--jexcel_border_color);
 }
 
+
 /* controls table font size */
-.jexcel > tbody > tr > td,
-.jexcel > thead > tr > td {
+
+.jexcel>tbody>tr>td,
+.jexcel>thead>tr>td {
     border-top: 1px solid var(--jexcel_border_color);
     /* border-left: 1px solid var(--jexcel_border_color); */
     border-left: 0px solid var(--jexcel_border_color);
     background-color: var(--jexcel_content_background);
     color: var(--jexcel_content_color);
     padding-bottom: 10px;
-    /* font-size: 12px; */
+    font-size: 12px;
     /* font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol',sans-serif; */
     /* font-weight: 400;  */
 }
 
-
-.jexcel > thead > tr > td:first-child {
+.jexcel>thead>tr>td:first-child {
     border-top: 0px solid var(--jexcel_border_color);
 }
 
-
-
-.jexcel > tbody > tr > td:first-child,
-.jexcel > thead > tr > td {
+.jexcel>tbody>tr>td:first-child,
+.jexcel>thead>tr>td {
     background-color: var(--jexcel_header_background);
     color: var(--jexcel_header_color);
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
     border-top: 1px solid #363640;
     color: rgba(255, 255, 255, 0.6);
-    font-size: 14px;
+    font-size: 12px;
     /* border-right: 1px solid var(--jexcel_border_color); */
 }
 
 
 /* index styling */
-.jexcel > tbody > tr > td:first-child {
+
+.jexcel>tbody>tr>td:first-child {
     background-color: var(--jexcel_header_background);
     border-top: 1px solid rgba(255, 255, 255, 0.12);
     border-bottom: 0px solid rgba(255, 255, 255, 0.12);
@@ -79,23 +80,24 @@
     /* border-right: 1px solid var(--jexcel_border_color); */
 }
 
-
-.jexcel > tbody>tr>:nth-child(3){
+.jexcel>tbody>tr>:nth-child(3) {
     border-right: 1px solid rgba(255, 255, 255, 0.12);
-   }
+}
 
 
 /* .jexcel > thead > tr > td.selected, */
+
+
 /* .jexcel > tbody > tr.selected > td:first-child {
     background-color: var(--jexcel_header_background_highlighted);
     color: var(--jexcel_header_color_highlighted);
 } */
 
-.jexcel > tbody > tr > td.jexcel_cursor a {
-    color: var(--active-color); 
+.jexcel>tbody>tr>td.jexcel_cursor a {
+    color: var(--active-color);
 }
 
-.jexcel_pagination > div > div {
+.jexcel_pagination>div>div {
     color: var(--jexcel_header_color);
     background: var(--jexcel_header_background);
     /* border: 1px solid var(--jexcel_border_color); */
@@ -120,15 +122,15 @@
     -moz-box-shadow: var(--jexcel_menu_box_shadow);
 }
 
-.jexcel_contextmenu > div a {
+.jexcel_contextmenu>div a {
     color: var(--jexcel_menu_color);
 }
 
-.jexcel_contextmenu > div:not(.contextmenu-line):hover a {
+.jexcel_contextmenu>div:not(.contextmenu-line):hover a {
     color: var(--jexcel_menu_color_highlighted);
 }
 
-.jexcel_contextmenu > div:not(.contextmenu-line):hover {
+.jexcel_contextmenu>div:not(.contextmenu-line):hover {
     background: var(--jexcel_menu_background_highlighted);
 }
 
@@ -154,7 +156,7 @@
     color: var(--jexcel_header_color);
 }
 
-.jexcel .jcalendar-content > table {
+.jexcel .jcalendar-content>table {
     background-color: var(--jexcel_content_background);
     color: var(--jexcel_content_color);
 }
@@ -194,7 +196,6 @@
     background: var(--jexcel_background_head_highlighted);
 }
 
-
 .jexcel_border_main {
     border: 1px solid #000;
     border-color: var(--jexcel_border_color_highlighted);
@@ -204,49 +205,56 @@
     background-color: var(--jexcel_content_background_highlighted);
 }
 
-
 .jexcel .highlight-bottom {
     border-bottom: 1px solid var(--jexcel_border_color_highlighted);
 }
+
 .jexcel .highlight-right {
     border-right: 1px solid var(--jexcel_border_color_highlighted);
 }
+
 .jexcel .highlight-left {
     border-left: 1px solid var(--jexcel_border_color_highlighted);
 }
+
 .jexcel .highlight-top {
     /* border-top: 1px solid var(--jexcel_border_color_highlighted); */
     border-top: 1px solid var(--jexcel_border_color);
 }
 
-
-.jexcel .highlight > tbody>tr>:nth-child(1){
+.jexcel .highlight>tbody>tr>:nth-child(1) {
     background-color: red;
-   }
-
+}
 
 .jexcel .copying-top {
     border-top-color: var(--jexcel_border_color_highlighted);
 }
+
 .jexcel .copying-right {
     border-right-color: var(--jexcel_border_color_highlighted);
 }
+
 .jexcel .copying-left {
     border-left-color: var(--jexcel_border_color_highlighted);
 }
+
 .jexcel .copying-bottom {
     border-bottom-color: var(--jexcel_border_color_highlighted);
 }
-.jexcel_border_main, .jexcel .highlight-top.highlight-left, .jexcel .highlight-top, .jexcel .highlight-left {
+
+.jexcel_border_main,
+.jexcel .highlight-top.highlight-left,
+.jexcel .highlight-top,
+.jexcel .highlight-left {
     -webkit-box-shadow: unset;
     box-shadow: unset;
 }
 
-.jexcel > tbody > tr:hover td,
-.jexcel > tbody > tr:hover td.highlight
-{
+.jexcel>tbody>tr:hover td,
+.jexcel>tbody>tr:hover td.highlight {
     background: #2a2a32;
 }
+
 
 /* .jexcel_row {
     color: red;

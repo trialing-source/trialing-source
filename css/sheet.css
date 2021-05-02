@@ -1,32 +1,29 @@
 body {
     background-color: #29465b;
-    width:100%
-    height: 100%
-
+    width: 100%;
+    height: 100%;
 }
 
 #table-wrapper {
     background-color: #363640;
     margin: 1% 1% 1% 1%;
     height: 90vh;
-    width:96vw;
+    width: 96vw;
     /* border-color: #363640; */
-    border-color:  rgba(255, 255, 255, 0.6);
+    border-color: rgba(255, 255, 255, 0.6);
     border-style: solid;
     border-width: 0px;
     /* border-width: thin; */
     border-radius: 15px;
-    -moz-border-radius:15px;
-    box-shadow:  rgba(255, 255, 255, 0.6);
-  }
+    -moz-border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 0.6);
+}
 
-
-  #table-scroll {
-    height:10%;
-    overflow:auto;
-    margin-top:10px;
-  }
-
+#table-scroll {
+    height: 10%;
+    overflow: auto;
+    margin-top: 10px;
+}
 
 #issuetitle {
     font-size: 13px;
@@ -34,34 +31,29 @@ body {
     color: #ffffff;
     text-align: center;
     /* font-family: sans-serif; */
-    margin-top:15px;
-
+    margin-top: 15px;
 }
-
 
 #myTable {
     margin: 0px 1% 10px 1%;
     border-collapse: collapse;
     font-size: 0.7em;
     font-family: sans-serif;
-    width:96vw;
-    height: auto
-    min-width: 100px;
+    width: 96vw;
+    height: auto min-width: 100px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     /* margin: 0px 0% 10px 0%; */
     border-radius: 15px;
-    -moz-border-radius:15px;
-    table-layout:fixed;
+    -moz-border-radius: 15px;
+    table-layout: fixed;
     overflow-y: auto;
 }
 
-
-
 #myTable thead tr {
     border-radius: 15px;
-    -moz-border-radius:15px;
+    -moz-border-radius: 15px;
     /* background-color:  #cedee9   ; */
-    background-color:    #29465b  ;
+    background-color: #29465b;
     color: #ffffff;
     /* color: #000000; */
     text-align: left;
@@ -79,10 +71,11 @@ body {
   border-left: solid 1px #f00; */
 }
 
-
 #myTable tbody tr {
     border-bottom: 1px solid #dddddd;
 }
+
+
 /*
 #myTable tbody {
   display: block;
@@ -104,16 +97,16 @@ body {
     border-bottom: 0px solid #009879;
 }
 
-  #myTable tbody tr {
+#myTable tbody tr {
     /* Add a bottom border to all table rows */
     border-bottom: 1px solid #dddddd;
-  }
+}
 
-  #myTable tbody tr:hover {
+#myTable tbody tr:hover {
     /* Add a grey background color to the table header and on hover */
     background-color: #f1f1f1;
     border-radius: 15px;
-  }
+}
 
 
 /* #myTable tbody tr.active-row {
@@ -123,52 +116,88 @@ body {
 
 #myInput {
     float: top;
-    width: 10%; /* Full-width */
-    font-size: 10px; /* Increase font-size */
-    padding: 3px 10px 3px 10px; /* Add some padding */
-    border: 1px solid #ddd; /* Add a grey border */
+    width: 10%;
+    /* Full-width */
+    font-size: 10px;
+    /* Increase font-size */
+    padding: 3px 10px 3px 10px;
+    /* Add some padding */
+    border: 1px solid #ddd;
+    /* Add a grey border */
     margin: 1% 1% 0px 1%;
     border-radius: 15px;
-  }
+}
+
 
 /* #myInput {
     background-image: url('/css/searchicon.png'); /* Add a search icon to input */
-    background-position: 10px 12px; /* Position the search icon */
-    background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 100%; /* Full-width */
-    font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 1px solid #ddd; /* Add a grey border */
-    margin-bottom: 12px; /* Add some space below the input */
-  } */
 
-  /* #myTable {
+background-position: 10px 12px;
+
+/* Position the search icon */
+
+background-repeat: no-repeat;
+
+/* Do not repeat the icon image */
+
+width: 100%;
+
+/* Full-width */
+
+font-size: 16px;
+
+/* Increase font-size */
+
+padding: 12px 20px 12px 40px;
+
+/* Add some padding */
+
+border: 1px solid #ddd;
+
+/* Add a grey border */
+
+margin-bottom: 12px;
+
+/* Add some space below the input */
+
+
+}
+*/
+/* #myTable {
     border-collapse: collapse; /* Collapse borders */
-    width: 100%; /* Full-width */
-    border: 1px solid #ddd; /* Add a grey border */
-    font-size: 18px; /* Increase font-size */
-  } */
+width: 100%;
 
-  /* #myTable th, #myTable td {
+/* Full-width */
+border: 1px solid #ddd;
+
+/* Add a grey border */
+font-size: 18px;
+
+/* Increase font-size */
+
+}
+*/
+/* #myTable th, #myTable td {
     text-align: left; /* Left-align text */
-    padding: 12px; /* Add padding */
-  } */
+padding: 12px;
 
+/* Add padding */
 
-#test {
+}
+*/ #test {
     height: 90vh;
     width:96vw;
     background-color: #FBD603;
 }
 
-
- /* #spreadsheet > div > table > tbody > tr, #spreadsheet > div > table > thead
+/* #spreadsheet > div > table > tbody > tr, #spreadsheet > div > table > thead
  {
      border-left:1px solid transparent;
  }
 #spreadsheet > div > table > tbody > tr > td
  {
      /* padding:10px; */
-     border-right:1px solid transparent;
- } */
+border-right:1px solid transparent;
 
+}
+*/
